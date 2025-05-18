@@ -1,0 +1,14 @@
+✅ Check Your Circuit First
+LED orientation: Make sure the long leg (anode) is connected to the Arduino digital pin, and the short leg (cathode) to GND (through a resistor).
+
+Resistors: Use 220Ω or 330Ω in series with each LED to avoid damage.
+
+Pins: Double-check the pins used in your code match the actual Arduino pins you're wired to (e.g. 8 = red, 7 = yellow, 6 = green).
+
+Wiring example:
+
+Pin 8 → resistor → Red LED (long leg) → short leg → GND
+
+Pin 7 → resistor → Yellow LED (long leg) → short leg → GND
+
+Pin 6 → resistor → Green LED (long leg) → short leg → GND
